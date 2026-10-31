@@ -1,0 +1,4 @@
+from app.core.config import Settings
+from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker
+
+engine = create_async_engine()
